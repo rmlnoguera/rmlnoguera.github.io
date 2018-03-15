@@ -37,6 +37,7 @@ a = document.getElementById("demo");
   	      	div.innerHTML=queue.value;
   	      	div.onclick=function(){
   	      		this.innerHTML=queue.question;
+              
   	      		this.onclick=function()
   	      		{
   	      			this.innerHTML=queue.answer;
